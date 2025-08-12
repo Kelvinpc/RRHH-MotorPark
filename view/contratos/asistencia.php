@@ -4,9 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <style>
     body {
       margin: 0;
@@ -70,7 +69,7 @@
   <div class="content">
     <table class="table table-bordered">
       <thead>
-        <tr>
+        <tr align="center">
           <th scope="col">#</th>
           <th scope="col">DNI</th>
           <th scope="col">Nombres y Apellidos</th>
@@ -80,26 +79,47 @@
           <th scope="col">Inicio Refrigerio</th>
           <th scope="col">Fin Refrigerio</th>
           <th scope="col">Salida</th>
+          <th scope="col">OPCIONES</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr align="center">
           <th scope="row">1</th>
           <td>75626327</td>
           <td>Gian Franco Anton Felix</td>
           <td>Sistema</td>
+          <td>Ing</td>
+          <td>08:00</td>
+          <td>13:00</td>
+          <td>14:30</td>
+          <td>18:06</td>
+          <td><button><i class="fa-solid fa-file-invoice"></i></button></td>
         </tr>
-        <tr>
+        <tr align="center">
           <th scope="row">2</th>
           <td>78955213</td>
           <td>Kelvin Pipa Castilla</td>
           <td>Marketing</td>
+          <td>supervisor</td>
+          <td >07:55</td>
+          <td>12:50</td>
+          <td>14:20</td>
+          <td>18:01</td>
+          <td><button><i class="fa-solid fa-file-invoice"></i></button></td>
+
         </tr>
-        <tr>
+        <tr align="center">
           <th scope="row">3</th>
           <td>84512369</td>
           <td>Erick Perez</td>
           <td>Contabilidad</td>
+          <td>Contador </td>
+          <td>08:05</td>
+          <td>13:00</td>
+          <td>14:20</td>
+          <td>18:12</td>
+          <td><button><i class="fa-solid fa-file-invoice"></i></button></td>
+
         </tr>
       </tbody>
     </table>
