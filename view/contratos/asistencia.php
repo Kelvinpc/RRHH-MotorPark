@@ -57,7 +57,8 @@
       data-bs-parent="#accordionExample">
       <div class="accordion-body p-0">
         <ul class="list-unstyled mb-0">
-          <li><a href="./contratos/asistencia.php" class="d-block px-3 py-2 text-decoration-none text-dark">Asistencia</a>
+          <li><a href="contratos.html" class="d-block px-3 py-2 text-decoration-none text-dark">Contratos</a>
+          <li><a href="asistencia.php" class="d-block px-3 py-2 text-decoration-none text-dark">Asistencia</a>
           </li>
         </ul>
       </div>

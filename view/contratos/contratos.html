@@ -56,10 +56,26 @@
 
   <div class="sidebar">
     <h2 style="text-align: center;">Menú</h2>
-    <a href="inicio.php">Inicio</a>
-    <a href="contratos.html">Personas</a>
-    <a href="usuarios.php">Usuarios</a>
-    <a href="configuracion.php">Configuración</a>
+
+    <a href="../index.php">Inicio</a>
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+        aria-expanded="true" aria-controls="collapseOne">
+        CONTRATOS
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+      data-bs-parent="#accordionExample">
+      <div class="accordion-body p-0">
+        <ul class="list-unstyled mb-0">
+          <li><a href="contratos.html" class="d-block px-3 py-2 text-decoration-none text-dark">Contratos</a>
+          </li>
+          <li><a href="asistencia.php" class="d-block px-3 py-2 text-decoration-none text-dark">Asistencia</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
     <a href="cerrar_sesion.php">Cerrar Sesión</a>
   </div>
 

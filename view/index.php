@@ -54,6 +54,7 @@
 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
   <div class="accordion-body p-0">
     <ul class="list-unstyled mb-0">
+      <li><a href="./contratos/contratos.html" class="d-block px-3 py-2 text-decoration-none text-dark">Constratos</a></li>
       <li><a href="./contratos/asistencia.php" class="d-block px-3 py-2 text-decoration-none text-dark">Asistencia</a></li>
     </ul>
   </div>
