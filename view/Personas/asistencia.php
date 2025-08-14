@@ -38,6 +38,11 @@
       padding: 20px;
       flex-grow: 1;
     }
+
+    .table{
+      background-color: rgb(234, 231, 231);
+    }  
+
   </style>
 </head>
 
@@ -49,7 +54,7 @@
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
         aria-expanded="true" aria-controls="collapseOne">
-        CONTRATOS
+        PERSONAS
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -66,7 +71,7 @@
     <a href="cerrar_sesion.php">Cerrar Sesión</a>
   </div>
 
-  <div class="content">
+  <!-- <div class="content">
     <table class="table table-bordered">
       <thead>
         <tr align="center">
@@ -123,7 +128,89 @@
         </tr>
       </tbody>
     </table>
+  </div> -->
+
+  <!-- NUEVA TABLA -->
+
+
+  <div class="content row">
+  <div class="col-12">
+    <h1>Bienvenido</h1>
+    <p>Lista de Asistencia.</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <label for="">Buscar</label>
+          <input type="text">
+        </div>
+        <div class="col-6">
+          <label for="">hola</label>
+          <input type="text">
+        </div>
+      </div>
+    </div>
+
+
+        <table class="table">
+      <thead>
+        <tr align="center">
+          <!-- <th scope="col">#</th> -->
+          <th scope="col">DNI</th>
+          <th scope="col">Nombres y Apellidos</th>
+          <th scope="col">Area</th>
+          <th scope="col">Cargo</th>
+          <th scope="col">Entrada</th>
+          <th scope="col">Inicio Refrigerio</th>
+          <th scope="col">Fin Refrigerio</th>
+          <th scope="col">Salida</th>
+          <th scope="col">OPCIONES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr align="center">
+          <!-- <th scope="row">1</th> -->
+          <td>75626327</td>
+          <td>Gian Franco Anton Felix</td>
+          <td>Sistema</td>
+          <td>Ingeniero de software</td>
+          <td>08:00</td>
+          <td>13:00</td>
+          <td>14:30</td>
+          <td>18:06</td>
+          <td><button><i class="fa-solid fa-file-invoice"></i></button></td>
+        </tr>
+        <tr align="center">
+          <!-- <th scope="row">2</th> -->
+          <td>78955213</td>
+          <td>Kelvin Pipa Castilla</td>
+          <td>Marketing</td>
+          <td>supervisor</td>
+          <td >07:55</td>
+          <td>12:50</td>
+          <td>14:20</td>
+          <td>18:01</td>
+          <td><button><i class="fa-solid fa-file-invoice"></i></button></td>
+
+        </tr>
+        <tr align="center">
+          <!-- <th scope="row">3</th> -->
+          <td>84512369</td>
+          <td>Erick Perez</td>
+          <td>Contabilidad</td>
+          <td>Contador </td>
+          <td>08:05</td>
+          <td>13:00</td>
+          <td>14:20</td>
+          <td>18:12</td>
+          <td><button><i class="fa-solid fa-file-invoice"></i></button></td>
+
+        </tr>
+      </tbody>
+    </table>
+
   </div>
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">

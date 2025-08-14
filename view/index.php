@@ -48,14 +48,14 @@
     <a href="index.php">Inicio</a>
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        CONTRATOS
+        PERSONAS
       </button>
     </h2>
 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
   <div class="accordion-body p-0">
     <ul class="list-unstyled mb-0">
-      <li><a href="./contratos/contratos.html" class="d-block px-3 py-2 text-decoration-none text-dark">Constratos</a></li>
-      <li><a href="./contratos/asistencia.php" class="d-block px-3 py-2 text-decoration-none text-dark">Asistencia</a></li>
+      <li><a href="Personas/contratos.html" class="d-block px-3 py-2 text-decoration-none text-dark">Contratos</a></li>
+      <li><a href="Personas/asistencia.php" class="d-block px-3 py-2 text-decoration-none text-dark">Asistencia</a></li>
     </ul>
   </div>
 </div>
